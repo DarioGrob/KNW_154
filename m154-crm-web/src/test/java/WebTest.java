@@ -36,7 +36,7 @@
 //		driver.findElement(By.xpath("/html/body/form[1]/p/input")).click();
 //		
 //		WebElement output = driver.findElement(By.xpath("/html/body/span"));
-//		String productnumber = output.getText().split(" |,")[1];
+//		String productnumber = output.getText();  //.split(" |,")[1];
 //		
 //		driver.findElement(By.xpath("/html/body/form[2]/input")).sendKeys(productnumber);;
 //		driver.findElement(By.xpath("/html/body/form[2]/p/input")).click();
